@@ -1,0 +1,27 @@
+{
+  "name": "price",
+  "version": "1.0.0",
+  "bin":"./bin/price.js",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fumigatus/Node.js-Cryptocurrency-Prices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fumigatus/Node.js-Cryptocurrency-Prices/issues"
+  },
+  "homepage": "https://github.com/Fumigatus/Node.js-Cryptocurrency-Prices#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.2.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^8.2.4"
+  }
+}
