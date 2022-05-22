@@ -19,10 +19,18 @@ const key = {
 
     },
     show() {
-        console.log('TODO: show key value')
+        try {
+            const keyManager = new KeyManager()
+            const key = keyManager.getKey()
+            console.log(key)
+        } catch(err) {
+            console.log(`${err}`)
+        }
     },
     delete() {
-
+        const keyManager = new KeyManager
+        keyManager.deleteKey();
+        console.log('API key is removed.')
     }
 }
 
