@@ -1,7 +1,21 @@
+const KeyManager = require('../lib/KeyManager')
+const NomicsAPI = require('../lib/NomicsAPI')
+
 const check = {
-    price(cmd) {
-        //TODO: Check coin price with nomics api
-        console.log(cmd.coin,cmd.cur)
+    async price(cmd) {
+        try {
+            const keyManager = new KeyManager()
+            const key = keyManager.getKey()
+
+            const api = new NomicsAPI(key)
+
+            const outputData = await api.getPrice(cmd.coin, cmd.cur)
+
+            console.log(outputData)
+
+        } catch (err) {
+            console.log(`${err}`)
+        }
     }
 }
 
