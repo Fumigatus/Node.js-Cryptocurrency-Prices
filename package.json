@@ -1,7 +1,7 @@
 {
   "name": "coinapi",
   "version": "1.0.0",
-  "bin":"../bin/coinapi.js",
+  "bin": "../bin/coinapi.js",
   "description": "",
   "main": "index.js",
   "scripts": {
