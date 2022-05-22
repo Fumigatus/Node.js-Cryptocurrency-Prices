@@ -1,7 +1,7 @@
 {
-  "name": "price",
+  "name": "coinapi",
   "version": "1.0.0",
-  "bin":"./bin/price.js",
+  "bin":"../bin/coinapi.js",
   "description": "",
   "main": "index.js",
   "scripts": {
