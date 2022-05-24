@@ -9,7 +9,7 @@ const check = {
 
             const api = new NomicsAPI(key)
 
-            const outputData = await api.getPrice(cmd.coin, cmd.cur)
+            const outputData = await api.getPrice(cmd.c, cmd.cur, cmd.i)
 
             console.log(outputData)
 
