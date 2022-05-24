@@ -16,6 +16,22 @@ const check = {
         } catch (err) {
             console.log(`${err}`)
         }
+    },
+
+    async volume(cmd) {
+        try {
+            const keyManager = new KeyManager()
+            const key = keyManager.getKey()
+
+            const api = new NomicsAPI(key)
+
+            const outputData = await api.getVolume(cmd.c, cmd.i, cmd.cur)
+
+            console.log(outputData)
+
+        } catch (err) {
+            console.log(`${err}`)
+        }
     }
 }
 
