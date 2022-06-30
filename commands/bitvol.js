@@ -1,5 +1,7 @@
-const BitvolAPI=require('../lib/BitvolAPI')
+const BitvolAPI = require('../lib/BitvolAPI')
 
-const bitvol = BitvolAPI
+async function bitvolCalc(){
+    BitvolAPI()
+}  
 
-console.log(bitvol)
+module.exports = bitvolCalc
