@@ -23,6 +23,7 @@
     "colors": "^1.4.0",
     "commander": "^9.2.0",
     "configstore": "^5.0.0",
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "puppeteer": "^15.3.0"
   }
 }
