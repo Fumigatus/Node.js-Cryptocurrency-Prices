@@ -3,7 +3,7 @@
 Get an API key at https://nomics.com
 
 ## Usage
-First install essential packets with
+First install essential packages with
 ```
 npm install
 ```
