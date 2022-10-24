@@ -7,7 +7,7 @@ First install essential packages with
 ```
 npm install
 ```
-Then link to command bash
+Then link to command
 ```
 Windows: npm link
 Unix: sudo npm link
